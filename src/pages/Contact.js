@@ -1,23 +1,26 @@
-import React,{Fragment} from 'react';
-import Header from "../components/Header";
-import ContactPage from "../templates/Contact";
-import CallToAction from "../components/CallToAction";
-import Footer from "../components/Footer";
-import LoginRegister from "../components/LoginRegister";
-import MobileMenu from "../components/MobileMenu";
+import React from "react";
+import Breadcrumb from "../components/Breadcrumb";
+import ContactMain from "../components/ContactMain";
+import FooterOne from "../components/FooterOne";
+import NavBar from "../components/NavBar";
+import NavbarThree from "../components/NavbarThree";
 
+const Contact = () => {
+  return (
+    <>
+      {/* Navigation Bar */}
+      <NavbarThree />
 
-const PageContact = () => {
-    return (
-        <Fragment>
-            <Header/>
-            <ContactPage/>
-            <CallToAction/>
-            <Footer/>
-            <LoginRegister/>
-            <MobileMenu/>
-        </Fragment>
-    );
+      {/* Navigation Bar */}
+      <Breadcrumb title={"Contact"} />
+
+      {/* Contact Main */}
+      <ContactMain />
+
+      {/* Footer One */}
+      <FooterOne />
+    </>
+  );
 };
 
-export default PageContact;
+export default Contact;

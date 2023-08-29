@@ -1,26 +1,26 @@
-import React,{Fragment} from 'react';
-import Header from "../components/Header";
-import ServiceDetails from "../templates/ServiceDetails";
-import Funfact from "../components/Funfact";
-import CallToAction from "../components/CallToAction";
-import Footer from "../components/Footer";
-import LoginRegister from "../components/LoginRegister";
-import MobileMenu from "../components/MobileMenu";
-import BrandLogo from "../components/BrandLogo";
+import React from "react";
+import Breadcrumb from "../components/Breadcrumb";
+import FooterOne from "../components/FooterOne";
+import NavBar from "../components/NavBar";
+import NavbarThree from "../components/NavbarThree";
+import ServiceDetailsArea from "../components/ServiceDetailsArea";
 
-const PageServiceDetails = () => {
-    return (
-        <Fragment>
-            <Header/>
-            <ServiceDetails/>
-            <BrandLogo/>
-            <Funfact/>
-            <CallToAction/>
-            <Footer/>
-            <LoginRegister/>
-            <MobileMenu/>
-        </Fragment>
-    );
+const ServiceDetails = () => {
+  return (
+    <>
+      {/* Navigation Bar */}
+      <NavbarThree />
+
+      {/* Navigation Bar */}
+      <Breadcrumb title={"Service Details"} />
+
+      {/* Service Details Area */}
+      <ServiceDetailsArea />
+
+      {/* Footer One */}
+      <FooterOne />
+    </>
+  );
 };
 
-export default PageServiceDetails;
+export default ServiceDetails;

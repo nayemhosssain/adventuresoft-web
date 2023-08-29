@@ -1,22 +1,26 @@
-import React,{Fragment} from 'react';
-import Header from "../components/Header";
-import BlogDetailsPage from "../templates/BlogDetails";
-import Footer from "../components/Footer";
-import LoginRegister from "../components/LoginRegister";
-import MobileMenu from "../components/MobileMenu";
-import CallToAction from "../components/CallToAction";
+import React from "react";
+import BlogDetailsArea from "../components/BlogDetailsArea";
+import Breadcrumb from "../components/Breadcrumb";
+import FooterOne from "../components/FooterOne";
+import NavBar from "../components/NavBar";
+import NavbarThree from "../components/NavbarThree";
 
-const PageBlog = () => {
-    return (
-        <Fragment>
-            <Header/>
-            <BlogDetailsPage sidebar={false}/>
-            <CallToAction/>
-            <Footer/>
-            <LoginRegister/>
-            <MobileMenu/>
-        </Fragment>
-    );
+const BlogDetails = () => {
+  return (
+    <>
+      {/* Navigation Bar */}
+      <NavbarThree />
+
+      {/* Navigation Bar */}
+      <Breadcrumb title={"Blog Details"} />
+
+      {/* Blog Details Area */}
+      <BlogDetailsArea />
+
+      {/* Footer One */}
+      <FooterOne />
+    </>
+  );
 };
 
-export default PageBlog;
+export default BlogDetails;

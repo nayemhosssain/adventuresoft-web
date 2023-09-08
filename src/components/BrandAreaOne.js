@@ -3,7 +3,7 @@ import Marquee from "react-fast-marquee";
 const BrandAreaOne = () => {
   return (
     <div className='about-area bg-gray pt-5 pb-5'>
-      <div className='container'>
+      <div className='container '>
         <div className='client-slider'>
           <Marquee gradient={false}>
             <div className='thumb'>

@@ -5,7 +5,7 @@ const AboutAreaFour = () => {
     <>
       {/* =============== About Area Three End ===============*/}
       <div className='about-area pd-top-120 pd-bottom-110'>
-        <div className='container'>
+        <div className='container custom-container'>
           <div className='row'>
             <div className='col-lg-6'>
               <div

@@ -7,7 +7,7 @@ const FaqAreaTwo = () => {
     <>
       {/*==================== Faq area start ====================*/}
       <div className='faq-area pd-bottom-120'>
-        <div className='container'>
+        <div className='container custom-container'>
           <div className='row pd-top-120'>
             <div className='col-xl-7 col-lg-6 col-md-8 order-lg-last'>
               <div className='about-thumb-inner video-thumb'>
@@ -16,13 +16,13 @@ const FaqAreaTwo = () => {
                   src='assets/img/about/15.png'
                   alt='img'
                 />
-                <span
+                <div
                   onClick={() => setOpen(true)}
                   className='video-play-btn-hover'
                 >
                   <img src='assets/img/video.svg' alt='img' />{" "}
                   <h6 className='d-inline-block'>how we work</h6>
-                </span>
+                </div>
                 <ModalVideo
                   channel='youtube'
                   autoplay

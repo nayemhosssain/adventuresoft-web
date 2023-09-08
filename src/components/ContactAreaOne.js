@@ -17,7 +17,7 @@ const ContactAreaOne = () => {
               src='assets/img/about/6.png'
               alt='img'
             />
-            <div className='row'>
+            <div className='row pt-5'>
               <div
                 className='col-lg-8'
                 data-aos='fade-right'

@@ -6,7 +6,7 @@ const ContactAreaFour = () => {
     <>
       {/*================= counter area start {/*=================*/}
       <div className='contact-area pd-top-90 pd-bottom-120'>
-        <div className='container'>
+        <div className='container custom-container'>
           <div className='row'>
             <div
               className='col-lg-6 order-lg-end '

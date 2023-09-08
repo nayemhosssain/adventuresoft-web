@@ -5,10 +5,10 @@ const CounterAreaFour = () => {
   return (
     <>
       {/*================= counter area start {/*=================*/}
-      <div className='counter-area mg-top--100'>
-        <div className='container pd-bottom-90'>
+      <div className='counter-area pt-5 mg-top--100'>
+        <div className='container custom-container pd-bottom-90'>
           <div
-            className='bg-base counter-4-area pt-5 border-radius-20'
+            className='bg-base counter-4-area border-radius-20'
             data-aos='fade-up'
             data-aos-delay='500'
             data-aos-duration='1500'

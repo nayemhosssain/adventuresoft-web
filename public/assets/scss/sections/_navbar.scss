@@ -105,8 +105,8 @@
         li {
           a {
             color: var(--heading-color);
-            font-weight: 600;
-            font-size: 16px;
+            font-weight: 500;
+            font-size: 15px;
             font-family: var(--heading-font);
           }
           &:hover a {
@@ -273,6 +273,8 @@
 
 .navbar-area-2 {
   margin-top: 0;
+  padding: 0;
+  max-height: 58px;
   &:after {
     display: none;
   }
@@ -537,6 +539,7 @@
 }
 .nav-right-part-desktop {
   margin-left: 20px;
+  margin-right: -15px;
 }
 .nav-right-part-mobile {
   display: none;

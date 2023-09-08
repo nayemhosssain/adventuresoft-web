@@ -13,7 +13,7 @@ const FooterThree = () => {
     <>
       {/* ================== Footer Two Start ==================*/}
       <footer className='footer-area bg-black mt-0 pd-top-100'>
-        <div className='container'>
+        <div  className='container'>
           <div className='row'>
             <div className='col-xl-3 col-lg-4 col-md-6'>
               <div className='widget widget_about'>

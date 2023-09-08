@@ -147,13 +147,13 @@ const NavbarThree = () => {
             </ul>
           </div>
           <div className='nav-right-part nav-right-part-desktop d-lg-inline-flex align-item-center'>
-            <a className='navbar-phone d-xl-inline-block d-none' href='tel:'>
+            {/* <a className='navbar-phone d-xl-inline-block d-none' href='tel:'>
               <span className='icon'>
                 <img src='assets/img/icon/1.png' alt='img' />
               </span>
               <span>Need help?</span>
               <h5>(808) 555-0111</h5>
-            </a>
+            </a> */}
             <Link className='btn btn-border-base' to='/about'>
               Discover More <FaPlus />
             </Link>

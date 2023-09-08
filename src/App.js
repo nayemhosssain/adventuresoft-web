@@ -5,9 +5,9 @@ import BlogDetails from "./pages/BlogDetails";
 import CaseStudyDetails from "./pages/CaseStudyDetails";
 import Contact from "./pages/Contact";
 import HomeFour from "./pages/HomeFour";
-import HomeOne from "./pages/HomeOne";
-import HomeThree from "./pages/HomeThree";
-import HomeTwo from "./pages/HomeTwo";
+// import HomeOne from "./pages/HomeOne";
+// import HomeThree from "./pages/HomeThree";
+// import HomeTwo from "./pages/HomeTwo";
 import Service from "./pages/Service";
 import ServiceDetails from "./pages/ServiceDetails";
 import Team from "./pages/Team";
@@ -16,7 +16,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 import ScrollToTop from "react-scroll-to-top";
-import HomeFive from "./pages/HomeFive";
+// import HomeFive from "./pages/HomeFive";
 function App() {
   useEffect(() => {
     AOS.init({

@@ -5,8 +5,8 @@ const BlogAreaFour = () => {
   return (
     <>
       {/*===================== Blog Area Three start =====================*/}
-      <div className='blog-area pt-4 pd-bottom-90'>
-        <div className='container'>
+      <div className='blog-area pt-2 pd-bottom-90'>
+        <div className='container custom-container'>
           <div className='section-title text-center'>
             <div className='row justify-content-center'>
               <div className='col-xl-7 col-lg-10'>
@@ -19,7 +19,7 @@ const BlogAreaFour = () => {
             </div>
           </div>
           <div className='row'>
-            <div className='col-lg-4 col-md-6'>
+            <div className='col-lg-3 col-md-6'>
               <div className='single-blog-list'>
                 <div className='thumb'>
                   <img
@@ -42,7 +42,7 @@ const BlogAreaFour = () => {
                 </div>
               </div>
             </div>
-            <div className='col-lg-4 col-md-6'>
+            <div className='col-lg-3 col-md-6'>
               <div className='single-blog-list'>
                 <div className='thumb'>
                   <img
@@ -65,7 +65,30 @@ const BlogAreaFour = () => {
                 </div>
               </div>
             </div>
-            <div className='col-lg-4 col-md-6'>
+            <div className='col-lg-3 col-md-6'>
+              <div className='single-blog-list'>
+                <div className='thumb'>
+                  <img
+                    className='border-radius-5'
+                    src='assets/img/blog/6.png'
+                    alt='img'
+                  />
+                </div>
+                <div className='details'>
+                  <p className='cat'>NEWS</p>
+                  <p className='date'>11 january,2023</p>
+                  <h5 className='mb-3'>
+                    <Link to='/blog-details'>
+                      Creating Engaging Content: A Guide for Digital
+                    </Link>
+                  </h5>
+                  <Link className='read-more-text' to='/blog-details'>
+                    Read More <FaArrowRight />
+                  </Link>
+                </div>
+              </div>
+            </div>
+            <div className='col-lg-3 col-md-6'>
               <div className='single-blog-list'>
                 <div className='thumb'>
                   <img

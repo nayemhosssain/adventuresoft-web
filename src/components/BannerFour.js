@@ -7,7 +7,7 @@ const BannerFour = () => {
     <>
       {/* ================== BannerFour Start ==================*/}
       <div className='banner-area bg-relative banner-area-3'>
-        <div className='container custom-container'>
+        <div style={{padding:"0"}} className='container custom-container'>
           <div className='bg-gray'>
             <img
               className='img-right'
@@ -34,6 +34,7 @@ const BannerFour = () => {
                     >
                       Innovative Solutions For A <span>Digital</span> World
                     </h2>
+                    <span>
                     <Link
                       className='mt-3 btn btn-border-base'
                       data-aos='fade-right'
@@ -43,6 +44,7 @@ const BannerFour = () => {
                     >
                       Discover More <FaPlus />
                     </Link>
+                    </span>
                   </div>
                 </div>
               </div>

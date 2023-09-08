@@ -10,7 +10,7 @@ const ServiceAreaFour = () => {
         className='service-area bg-cover pd-top-120 pd-bottom-90 pd-top-110 pd-bottom-90'
         style={{ backgroundImage: 'url("./assets/img/bg/3.png")' }}
       >
-        <div className='container'>
+        <div className='container custom-container'>
           <div className='row justify-content-center'>
             <div className='col-xl-6 col-lg-8'>
               <div className='section-title text-center'>
@@ -24,7 +24,7 @@ const ServiceAreaFour = () => {
           <div className='row'>
             <div className='col-xl-3 col-md-6'>
               <div className='single-work-process-inner'>
-                <div className='thumb mb-4'>
+                <div className='thumb mb-3'>
                   <img src='assets/img/icon/18.svg' alt='img' />
                 </div>
                 <div className='details'>
@@ -47,8 +47,8 @@ const ServiceAreaFour = () => {
                 <div className='details'>
                   <h5 className='mb-3'>Big Data Analytics</h5>
                   <p className='content mb-3'>
-                    Create ipsum dolor sit consec tetur sed diam in the aliquam
-                    tempor
+                  Research ipsum dolor sit consec tetur sed diam in the
+                    aliquam tempor
                   </p>
                   <Link className='read-more-text' to='/service-details'>
                     Read More <FaArrowRight />
@@ -64,7 +64,7 @@ const ServiceAreaFour = () => {
                 <div className='details'>
                   <h5 className='mb-3'>Cyber security</h5>
                   <p className='content mb-3'>
-                    Develope ipsum dolor sit consec tetur sed diam in the
+                  Research ipsum dolor sit consec tetur sed diam in the
                     aliquam tempor
                   </p>
                   <Link className='read-more-text' to='/service-details'>
@@ -81,7 +81,7 @@ const ServiceAreaFour = () => {
                 <div className='details'>
                   <h5 className='mb-3'>Mobile App</h5>
                   <p className='content mb-3'>
-                    Shop ipsum dolor sit consec tetur Malesuada sed diam in the
+                  Research ipsum dolor sit consec tetur sed diam in the
                     aliquam tempor
                   </p>
                   <Link className='read-more-text' to='/service-details'>

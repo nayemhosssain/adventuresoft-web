@@ -47,7 +47,7 @@ const TestimonialThree = () => {
         className='testimonial-area bg-cover pd-top-120 pd-bottom-120'
         style={{ backgroundImage: 'url("./assets/img/bg/13.png")' }}
       >
-        <div className='container pd-bottom-100'>
+        <div className='container custom-container pd-bottom-100'>
           <div className='row justify-content-center'>
             <div className='col-xl-7 col-lg-9'>
               <div className='section-title text-center'>

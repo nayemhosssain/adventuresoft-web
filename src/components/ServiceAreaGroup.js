@@ -22,7 +22,7 @@ const ServiceAreaGroup = () => {
           </div>
           <div className='row'>
             {serviceList.map((data, index) => (
-              <div className='col-lg-4 col-md-6' key={index}>
+              <div className='col-lg-3 col-md-6' key={index}>
                 <div className='single-service-inner text-center'>
                   <div className='thumb'>
                     <img src={data.img} alt='img' />
@@ -32,9 +32,12 @@ const ServiceAreaGroup = () => {
                       <Link to='/service-details'>{data.title}</Link>
                     </h5>
                     <p>{data.des}</p>
+                    <div style={{textAlign:"-webkit-center"}}>
                     <Link className='btn btn-border-base' to='/service-details'>
                       Touch More <FaPlus />
                     </Link>
+                    </div>
+                    
                   </div>
                 </div>
               </div>

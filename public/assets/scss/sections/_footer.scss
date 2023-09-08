@@ -3,7 +3,8 @@
 ---------------------------------------------------*/
 .footer-area {
   position: relative;
-  margin-top: 90px;
+  margin-top: 45px;
+  padding-top: 35px;
   &:after {
     content: "";
     position: absolute;
@@ -17,7 +18,7 @@
   .widget {
     position: relative;
     z-index: 2;
-    margin-bottom: 70px;
+    margin-bottom: 20px;
   }
   .widget-title {
     margin-bottom: 30px;
@@ -161,7 +162,7 @@
 }
 .footer-bottom {
   border-top: 1px solid rgba(255, 255, 255, 0.08);
-  padding: 23px 0;
+  padding: 10px 0;
   position: relative;
   z-index: 2;
   p {

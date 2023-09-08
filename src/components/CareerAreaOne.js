@@ -6,7 +6,7 @@ const CareerAreaOne = () => {
     <>
       {/* career area start */}
       <div className='career-section pd-top-120 '>
-        <div className='container'>
+        <div className='container custom-container'>
           <div className='row justify-content-center'>
             <div className='col-lg-6'>
               <div className='section-title text-center'>
